@@ -3,7 +3,6 @@ import grpc
 import course_service_pb2
 import course_service_pb2_grpc
 
-
 class CourseServiceServicer(course_service_pb2_grpc.CourseServiceServicer):
     def GetCourse(self, request, context):
         print(f'Получен запрос к методу GetCourse c id: {request.course_id}')
