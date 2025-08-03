@@ -1,9 +1,6 @@
 import httpx
 from faker import Faker
-import time
-
-def get_random_email() -> str:
-    return f"test.{time.time()}@example.com"
+from tools.fake_data_generator import get_random_email
 
 fake = Faker('ru_RU')
 
