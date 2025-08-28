@@ -35,7 +35,7 @@ class PrivateUsersClient(APIClient):
         :param request: Словарь с email, lastName, firstName, middleName.
         :return: Ответ от сервера в виде объекта httpx.Response
         """
-        return self.patch(f"/api/v1/users/{user_id}", json=request)
+        return self.patch(f"/api/v1/users/{user_id}", json=request.model_dump())
 
     def delete_user_api(self, user_id: str) -> Response:
         """
@@ -48,7 +48,7 @@ class PrivateUsersClient(APIClient):
 
     def get_user(self, user_id: str) -> GetUserResponseSchema:
         response = self.get_user_api(user_id)
-        return response.json()
+        return GetUserResponseSchema.model_validate_json(response.text)
 
 
 def get_private_users_client(user: AuthenticationUserSchema) -> PrivateUsersClient:
