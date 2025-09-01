@@ -1,5 +1,6 @@
-from pydantic import EmailStr
+from pydantic import EmailStr, Field
 from tools.camel_model import CamelModel
+from tools.fake_data_generator import fake
 
 class UserSchema(CamelModel):
     """
@@ -16,11 +17,11 @@ class CreateUserRequestSchema(CamelModel):
     """
     Описание структуры запроса на создание пользователя.
     """
-    email: EmailStr
-    password: str
-    last_name: str
-    first_name: str
-    middle_name: str
+    email: EmailStr = Field(default_factory=fake.email)
+    password: str = Field(default_factory=fake.password)
+    last_name: str = Field(default_factory=fake.last_name)
+    first_name: str = Field(default_factory=fake.first_name)
+    middle_name: str = Field(default_factory=fake.middle_name)
 
 
 class CreateUserResponseSchema(CamelModel):
@@ -34,10 +35,10 @@ class UpdateUserRequestSchema(CamelModel):
     """
     Описание структуры запроса на обновление пользователя.
     """
-    email: EmailStr | None
-    last_name: str | None
-    first_name: str | None
-    middle_name: str | None
+    email: EmailStr | None = Field(default_factory=fake.email)
+    last_name: str | None = Field(default_factory=fake.last_name)
+    first_name: str | None = Field(default_factory=fake.first_name)
+    middle_name: str | None = Field(default_factory=fake.middle_name)
 
 
 class UpdateUserResponseSchema(CamelModel):

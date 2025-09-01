@@ -1,11 +1,11 @@
 import httpx
 from faker import Faker
-from tools.fake_data_generator import get_random_email
+from tools.fake_data_generator import fake
 
 fake = Faker('ru_RU')
 
 user_data = {
-    "email": get_random_email(),
+    "email": fake.email(),
     "password": fake.password(),
     "lastName": fake.last_name(),
     "firstName": fake.first_name(),
@@ -22,7 +22,7 @@ header = {"Authorization": f"{token_json["tokenType"]} {token_json["accessToken"
 
 user_id = create_user_response.json()["user"]["id"]
 user_new_date = {
-    "email": get_random_email(),
+    "email": fake.email(),
     "lastName": fake.last_name(),
     "firstName": fake.first_name(),
     "middleName": fake.middle_name()

@@ -1,5 +1,7 @@
-from tools.camel_model import CamelModel
+from pydantic import Field
 
+from tools.camel_model import CamelModel
+from tools.fake_data_generator import fake
 
 class TokenSchema(CamelModel):
     """
@@ -14,8 +16,8 @@ class LoginRequestSchema(CamelModel):
     """
     Описание структуры запроса на аутентификацию.
     """
-    email: str
-    password: str
+    email: str =  Field(default_factory=fake.email)
+    password: str =  Field(default_factory=fake.password)
 
 
 class LoginResponseSchema(CamelModel):
@@ -29,4 +31,4 @@ class RefreshRequestSchema(CamelModel):
     """
     Описание структуры запроса для обновления токена.
     """
-    refresh_token: str
+    refresh_token: str =  Field(default_factory=fake.sentence)
