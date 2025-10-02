@@ -18,3 +18,18 @@ def assert_create_user_response(request: CreateUserRequestSchema, response: Crea
             expected=getattr(response.user, field_name),
             name=field_name
         )
+
+
+def assert_get_user_response(get_user_response: UserSchema, create_user_response: UserSchema):
+    assert_user(get_user_response, create_user_response)
+
+
+def assert_user(actual: UserSchema, expected: UserSchema):
+    fields = UserSchema.model_fields.keys()
+
+    for field_name in fields:
+        assert_equal(
+            actual=getattr(actual, field_name),
+            expected=getattr(expected, field_name),
+            name=field_name
+        )
