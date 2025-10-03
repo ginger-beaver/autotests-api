@@ -2,6 +2,7 @@ from http import HTTPStatus
 
 import pytest
 
+from tools.fake_data_generator import fake
 from clients.users.private_users_client import PrivateUsersClient
 from clients.users.public_users_client import PublicUsersClient
 from clients.users.users_schema import CreateUserRequestSchema, CreateUserResponseSchema, GetUserResponseSchema
@@ -13,8 +14,9 @@ from tools.assertions.users import assert_create_user_response, assert_get_user_
 
 @pytest.mark.users
 @pytest.mark.regression
-def test_create_user(public_users_client: PublicUsersClient):
-    request = CreateUserRequestSchema()
+@pytest.mark.parametrize("domain", ["mail.ru", "gmail.com", "example.com"])
+def test_create_user(domain: str, public_users_client: PublicUsersClient):
+    request = CreateUserRequestSchema(email=fake.email(domain))
     response = public_users_client.create_user_api(request)
     response_data = CreateUserResponseSchema.model_validate_json(response.text)
 
