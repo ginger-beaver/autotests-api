@@ -23,7 +23,7 @@ class GetExercisesResponseSchema(CamelModel):
     exercises: list[Exercise]
 
 
-class ExerciseResponseSchema(CamelModel):
+class GetExerciseResponseSchema(CamelModel):
     """
     Описание структуры ответа на получение упражнения.
     """
