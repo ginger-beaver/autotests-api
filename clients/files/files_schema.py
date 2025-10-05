@@ -1,4 +1,5 @@
 from pydantic import BaseModel, HttpUrl, Field
+
 from tools.camel_model import CamelModel
 from tools.fake_data_generator import fake
 
@@ -25,5 +26,12 @@ class CreateFileRequestSchema(BaseModel):
 class CreateFileResponseSchema(CamelModel):
     """
     Описание структуры ответа создания файла.
+    """
+    file: FileSchema
+
+
+class GetFileResponseSchema(CamelModel):
+    """
+    Описание структуры ответа получение файла.
     """
     file: FileSchema
