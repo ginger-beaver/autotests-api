@@ -27,6 +27,13 @@ class GetCoursesQuerySchema(CamelModel):
     user_id: str
 
 
+class GetCoursesResponseSchema(CamelModel):
+    """
+    Описание структуры ответа на получение списка курсов.
+    """
+    courses: list[CourseSchema]
+
+
 class CreateCourseRequestSchema(CamelModel):
     """
     Описание структуры запроса на создание курса.
