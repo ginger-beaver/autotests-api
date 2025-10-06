@@ -1,10 +1,12 @@
 from pydantic import Field
-from tools.fake_data_generator import fake
-from tools.camel_model import CamelModel
-from clients.users.users_schema import UserSchema
-from clients.files.files_schema import FileSchema
 
-class Course(CamelModel):
+from clients.files.files_schema import FileSchema
+from clients.users.users_schema import UserSchema
+from tools.camel_model import CamelModel
+from tools.fake_data_generator import fake
+
+
+class CourseSchema(CamelModel):
     """
     Описание структуры курса.
     """
@@ -42,7 +44,7 @@ class CreateCourseResponseSchema(CamelModel):
     """
     Описание структуры ответа создания курса.
     """
-    course: Course
+    course: CourseSchema
 
 
 class UpdateCourseRequestSchema(CamelModel):
@@ -54,3 +56,10 @@ class UpdateCourseRequestSchema(CamelModel):
     min_score: int | None = Field(default_factory=fake.min_score)
     description: str | None = Field(default_factory=fake.text)
     estimated_time: str | None = Field(default_factory=fake.estimated_time)
+
+
+class UpdateCourseResponseSchema(CamelModel):
+    """
+    Описание структуры ответа обновления курса.
+    """
+    course: CourseSchema

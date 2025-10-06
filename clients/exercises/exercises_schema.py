@@ -2,7 +2,7 @@ from pydantic import Field
 from tools.camel_model import CamelModel
 from tools.fake_data_generator import fake
 
-class Exercise(CamelModel):
+class ExerciseSchema(CamelModel):
     """
     Описание структуры упражнения.
     """
@@ -20,14 +20,14 @@ class GetExercisesResponseSchema(CamelModel):
     """
     Описание структуры ответа на получение списка упражнений.
     """
-    exercises: list[Exercise]
+    exercises: list[ExerciseSchema]
 
 
 class GetExerciseResponseSchema(CamelModel):
     """
     Описание структуры ответа на получение упражнения.
     """
-    exercise: Exercise
+    exercise: ExerciseSchema
 
 
 class GetExercisesQuerySchema(CamelModel):
