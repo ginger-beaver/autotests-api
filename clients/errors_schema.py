@@ -1,4 +1,4 @@
-from typing import Any
+from typing import Any, Annotated
 
 from pydantic import BaseModel, Field, ConfigDict
 
@@ -11,9 +11,9 @@ class ValidationErrorSchema(BaseModel):
 
     type: str
     input: Any
-    context: dict[str, Any] = Field(alias="ctx")
-    message: str = Field(alias="msg")
-    location: list[str] = Field(alias="loc")
+    context: Annotated[dict[str, Any], Field(alias="ctx")]
+    message: Annotated[str, Field(alias="msg")]
+    location: Annotated[list[str], Field(alias="loc")]
 
 
 class ValidationErrorResponseSchema(BaseModel):
@@ -22,4 +22,14 @@ class ValidationErrorResponseSchema(BaseModel):
     """
     model_config = ConfigDict(populate_by_name=True)
 
-    details: list[ValidationErrorSchema] = Field(alias="detail")
+    details: Annotated[list[ValidationErrorSchema], Field(alias="detail")]
+
+
+class InternalErrorResponseSchema(BaseModel):
+    """
+    Модель для описания внутренней ошибки.
+    """
+
+    model_config = ConfigDict(populate_by_name=True)
+
+    details: Annotated[str, Field(alias="detail")]
