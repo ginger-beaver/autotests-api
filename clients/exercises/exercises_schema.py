@@ -1,6 +1,8 @@
 from pydantic import Field
+
 from tools.camel_model import CamelModel
 from tools.fake_data_generator import fake
+
 
 class ExerciseSchema(CamelModel):
     """
@@ -50,6 +52,13 @@ class CreateExerciseRequestSchema(CamelModel):
     estimated_time: str = Field(default_factory=fake.estimated_time)
 
 
+class CreateExerciseResponseSchema(CamelModel):
+    """
+    Описание структуры ответа на создание упражнения.
+    """
+    exercise: ExerciseSchema
+
+
 class UpdateExerciseRequestSchema(CamelModel):
     """
     Описание структуры запроса на обновление упражнения.
@@ -60,3 +69,10 @@ class UpdateExerciseRequestSchema(CamelModel):
     order_index: int | None = Field(default_factory=fake.integer)
     description: str | None = Field(default_factory=fake.text)
     estimated_time: str | None = Field(default_factory=fake.estimated_time)
+
+
+class UpdateExerciseResponseSchema(CamelModel):
+    """
+    Описание структуры ответа на обновление упражнения.
+    """
+    exercise: ExerciseSchema
