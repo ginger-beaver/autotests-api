@@ -88,7 +88,7 @@ class TestExercises:
             function_exercise: ExerciseFixture,
             function_course: CourseFixture
     ):
-        query = GetExercisesQuerySchema(course_id=function_exercise.response.exercise.course_id)
+        query = GetExercisesQuerySchema(course_id=function_course.response.course.id)
         response = exercises_client.get_exercises_api(query)
         response_data = GetExercisesResponseSchema.model_validate_json(response.text)
 
