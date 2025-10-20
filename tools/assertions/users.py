@@ -1,7 +1,10 @@
+import allure
+
 from clients.users.users_schema import CreateUserRequestSchema, CreateUserResponseSchema, UserSchema
 from tools.assertions.base import assert_equal
 
 
+@allure.step("Check create user response")
 def assert_create_user_response(request: CreateUserRequestSchema, response: CreateUserResponseSchema):
     """
     Проверяет, что ответ на создание пользователя соответствует запросу.
@@ -20,10 +23,12 @@ def assert_create_user_response(request: CreateUserRequestSchema, response: Crea
         )
 
 
+@allure.step("Check get user response")
 def assert_get_user_response(get_user_response: UserSchema, create_user_response: UserSchema):
     assert_user(get_user_response, create_user_response)
 
 
+@allure.step("Check user")
 def assert_user(actual: UserSchema, expected: UserSchema):
     fields = UserSchema.model_fields.keys()
 
