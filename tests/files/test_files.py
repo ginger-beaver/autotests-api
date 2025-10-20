@@ -2,6 +2,7 @@ from http import HTTPStatus
 
 import allure
 import pytest
+from allure_commons.types import Severity
 
 from clients.errors_schema import ValidationErrorResponseSchema, InternalErrorResponseSchema
 from clients.files.files_client import FilesClient
@@ -26,6 +27,7 @@ from tools.assertions.schema import validate_json_schema
 class TestFiles:
     @allure.story(AllureStory.GET_ENTITY)
     @allure.title("Get file")
+    @allure.severity(Severity.BLOCKER)
     def test_get_file(self, files_client: FilesClient, function_file: FileFixture):
         response = files_client.get_file_api(function_file.response.file.id)
         response_data = GetFileResponseSchema.model_validate_json(response.text)
@@ -37,6 +39,7 @@ class TestFiles:
 
     @allure.story(AllureStory.CREATE_ENTITY)
     @allure.title("Create file")
+    @allure.severity(Severity.BLOCKER)
     def test_create_file(self, files_client: FilesClient):
         request = CreateFileRequestSchema(upload_file="./test_data/files/image.png")
         response = files_client.create_file_api(request)
@@ -49,6 +52,7 @@ class TestFiles:
 
     @allure.story(AllureStory.VALIDATE_ENTITY)
     @allure.title("Create file with empty filename")
+    @allure.severity(Severity.NORMAL)
     def test_create_file_with_empty_filename(self, files_client: FilesClient):
         request = CreateFileRequestSchema(
             filename="",
@@ -64,6 +68,7 @@ class TestFiles:
 
     @allure.story(AllureStory.VALIDATE_ENTITY)
     @allure.title("Create file with empty directory")
+    @allure.severity(Severity.NORMAL)
     def test_create_file_with_empty_directory(self, files_client: FilesClient):
         request = CreateFileRequestSchema(
             directory="",
@@ -79,6 +84,7 @@ class TestFiles:
 
     @allure.story(AllureStory.DELETE_ENTITY)
     @allure.title("Delete file")
+    @allure.severity(Severity.NORMAL)
     def test_delete_file(self, files_client: FilesClient, function_file: FileFixture):
         delete_response = files_client.delete_file_api(function_file.response.file.id)
 
@@ -94,6 +100,7 @@ class TestFiles:
 
     @allure.story(AllureStory.VALIDATE_ENTITY)
     @allure.title("Get file with incorrect file id")
+    @allure.severity(Severity.NORMAL)
     def test_get_file_with_incorrect_file_id(self, files_client: FilesClient):
         response = files_client.get_file_api(file_id="incorrect-file-id")
         response_data = ValidationErrorResponseSchema.model_validate_json(response.text)
