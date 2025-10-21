@@ -1,4 +1,4 @@
-from pydantic import BaseModel, HttpUrl, Field
+from pydantic import BaseModel, HttpUrl, Field, FilePath
 
 from tools.camel_model import CamelModel
 from tools.fake_data_generator import fake
@@ -20,7 +20,7 @@ class CreateFileRequestSchema(BaseModel):
     """
     filename: str = Field(default_factory=lambda: f"{fake.uuid4()}.png")
     directory: str = Field(default="tests")
-    upload_file: str = Field(alias=None)
+    upload_file: FilePath = Field(alias=None)
 
 
 class CreateFileResponseSchema(CamelModel):
