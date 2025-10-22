@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIyVDEzOjA1OjI0LjY3ODk5NiIsInVzZXJfaWQiOiJjNmRjZjg1Ny1iOTEzLTRkOTAtOWYzYi0zZDc4MGY3ZDU5ZjUifQ.60XyYJxJ5SimzDdz0AR5Hkmqq1sROQ3B_feYBBm1ENU' \
+  -H 'content-length: 373' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Meet nothing minute born me choose prepare.","maxScore":94,"minScore":13,"description":"Worry six other attention foreign so. Focus business place measure create.\nNot rock father support magazine. Mother spring quite cold.","estimatedTime":"8 weeks","previewFileId":"cdf87b08-32ac-4421-9f95-fdd233b7278e","createdByUserId":"c6dcf857-b913-4d90-9f3b-3d780f7d59f5"}'

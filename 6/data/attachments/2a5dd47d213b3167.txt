@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/042b9a7a-d36f-4c34-90f9-5c10ef3104e7' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIyVDEzOjA1OjIzLjIxMTAxNCIsInVzZXJfaWQiOiI4NTUzYzc3OC1lZGUwLTQ1NDUtYmU5NC03MWQ2YmY2MmQ3ZDYifQ.2CyTufirJ02s4TvlTcMJSyeLp8Mre3SDfW63L1Ab6lQ' \
+  -H 'content-length: 186' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Serve visit personal standard.","maxScore":85,"minScore":21,"description":"Benefit memory two sea create pattern mean. Product official when spring.","estimatedTime":"7 weeks"}'

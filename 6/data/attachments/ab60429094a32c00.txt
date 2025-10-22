@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIyVDEzOjA1OjI1Ljg1ODcxNyIsInVzZXJfaWQiOiI0ZWNhY2IyMy1mNTNlLTQwNzMtODhjNS0yYzQwYWJjNzIxZTgifQ.9dkYa5iez5pq9a39nN5vDCekWrr3q69zafc_bWosxng' \
+  -H 'content-length: 403' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Sort third natural argue phone bed would.","maxScore":58,"minScore":2,"description":"Mission edge bring lose kid could hospital. Much response pretty table between various.\nPart let social whether north.\nThose strong always finish along call specific.","estimatedTime":"4 weeks","previewFileId":"24a2f8c8-b80d-4a7c-a508-49002c931a39","createdByUserId":"4ecacb23-f53e-4073-88c5-2c40abc721e8"}'

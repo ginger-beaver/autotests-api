@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIyVDEzOjA1OjIzLjIxMTAxNCIsInVzZXJfaWQiOiI4NTUzYzc3OC1lZGUwLTQ1NDUtYmU5NC03MWQ2YmY2MmQ3ZDYifQ.2CyTufirJ02s4TvlTcMJSyeLp8Mre3SDfW63L1Ab6lQ' \
+  -H 'content-length: 375' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Them cultural clear recognize.","maxScore":83,"minScore":5,"description":"Thought spring ok. Teach throughout area specific. Can direction treat size at product history.\nWonder effect television. Stand daughter second other.","estimatedTime":"3 weeks","previewFileId":"a006e42f-3b04-43e1-93e6-389cda6a9ba6","createdByUserId":"8553c778-ede0-4545-be94-71d6bf62d7d6"}'

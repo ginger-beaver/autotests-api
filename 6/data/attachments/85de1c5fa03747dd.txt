@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIyVDEzOjA1OjI2LjEzMjc2OCIsInVzZXJfaWQiOiI1ZTIzZTU3My1iOWJjLTRiZTYtYjY1OS0yZDU3MTM4MmIyYjQifQ.OrcJPBTTSky04lx1s5tciuv2r8YBgRdVM7YBGeEUMA0' \
+  -H 'content-length: 364' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Leg traditional north receive time.","courseId":"6939119a-d09f-4861-881c-5fbf2a3fc917","maxScore":60,"minScore":30,"orderIndex":97,"description":"Sea lose there central wish down nearly. Thing spring future high medical.\nService modern area position usually. Amount knowledge pattern bit air source. Final whether life thing.","estimatedTime":"7 weeks"}'
