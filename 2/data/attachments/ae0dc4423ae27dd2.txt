@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIyVDExOjQwOjQyLjMzMDUwOCIsInVzZXJfaWQiOiJkOTc5MDMyOC00Y2FhLTQxZDItOWQxMy05NGEwYjZkOTNlODIifQ.Z495X1jy6m7VNlWEHJkbxbX_TE3muMj-RbNWD1Be9l0' \
+  -H 'content-length: 377' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Evidence age me style seek party arm.","maxScore":77,"minScore":6,"description":"Former hard television cover argue hard. Test life participant.\nGuy civil red finish charge find. Idea nor project wall however. From level talk.","estimatedTime":"7 weeks","previewFileId":"abd684b9-afc9-4f7a-b488-b0499a013460","createdByUserId":"d9790328-4caa-41d2-9d13-94a0b6d93e82"}'

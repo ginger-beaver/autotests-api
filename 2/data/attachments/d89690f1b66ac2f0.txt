@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIyVDExOjQwOjM4Ljc1NDEyMiIsInVzZXJfaWQiOiI4YTNiNmY5Mi1hODAzLTQ5ZDEtYTA3Yi1jNWEyZWE4NWNhZDkifQ.JAOXQmG2dcvmWRexS5xvHR55EUnsalwB8tyJvXqoECk' \
+  -H 'content-length: 315' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Attention finally network give station oil.","maxScore":51,"minScore":2,"description":"Person although candidate paper member. President a difficult station because.","estimatedTime":"6 weeks","previewFileId":"719cd638-c96d-480a-8ae8-0d3cba4c3556","createdByUserId":"8a3b6f92-a803-49d1-a07b-c5a2ea85cad9"}'
