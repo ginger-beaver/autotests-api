@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIyVDEzOjA5OjU4LjU0NjkyMCIsInVzZXJfaWQiOiIyNWQzZjdmZi0xODkyLTQwZmYtYmIwNS1lODlhY2M4YzAxODAifQ.WT3Uer_Eagvsui4eTLHAQlXgQ707JqLgfRH_WifMRqg' \
+  -H 'content-length: 404' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Only off show.","maxScore":71,"minScore":16,"description":"Fine activity lose. Feel everybody trade stock control vote. Perform image region leave.\nBetter smile rich thus buy ball computer chair. Word development best great challenge respond I Democrat.","estimatedTime":"4 weeks","previewFileId":"22a06c7c-58f0-446f-b5b3-4821a0accf84","createdByUserId":"25d3f7ff-1892-40ff-bb05-e89acc8c0180"}'

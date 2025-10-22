@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIyVDEzOjA5OjU3LjA5ODQ2OCIsInVzZXJfaWQiOiI3MDQwZWQ1MS0yOWQ5LTQ3MTktOTI2Ni00NmVlZTdmNWNkYmYifQ.dyNLkux4a92QQKhfJc3F0WmX6C6x5B4Sa6kG90Q-RTY' \
+  -H 'content-length: 358' \
+  -H 'content-type: application/json' \
+  -d '{"title":"My attorney factor true gun list interest.","maxScore":52,"minScore":28,"description":"Whatever follow heavy standard. Red action true west exactly. Rather make owner whose security organization begin appear.","estimatedTime":"6 weeks","previewFileId":"c08adb00-1a8b-42a9-8edf-36a184e85f0b","createdByUserId":"7040ed51-29d9-4719-9266-46eee7f5cdbf"}'

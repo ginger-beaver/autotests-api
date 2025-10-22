@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIyVDEzOjA5OjU4LjU0NjkyMCIsInVzZXJfaWQiOiIyNWQzZjdmZi0xODkyLTQwZmYtYmIwNS1lODlhY2M4YzAxODAifQ.WT3Uer_Eagvsui4eTLHAQlXgQ707JqLgfRH_WifMRqg' \
+  -H 'content-length: 331' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Message senior spend shoulder.","courseId":"08272859-8ae0-49e7-8425-9831fa6b6ace","maxScore":54,"minScore":26,"orderIndex":42,"description":"Thing government concern we. Official evidence education education reduce feel sound clear.\nStreet break exist stuff collection. Trouble system trade.","estimatedTime":"10 weeks"}'

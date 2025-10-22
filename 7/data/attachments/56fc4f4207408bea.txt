@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/e0dd523a-51af-44e1-adcd-fda49f73a88e' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIyVDEzOjA5OjU3LjM3MDQ2OSIsInVzZXJfaWQiOiI2ZjRiOGI4Yy1kZWIzLTQ2ZTMtOGNlMy1hY2IyN2NiMGE3ODkifQ.bo6lXs-WjWquZ9lvYd4LdDyQYp_5gktT-1QMoFQJ1Qw' \
+  -H 'content-length: 346' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Production middle big himself see fine stand major.","maxScore":93,"minScore":24,"orderIndex":80,"description":"Food in summer return drug question. Team interest these national red large. Discuss able our party forward care change.\nNote camera read maybe money fight however law. About happy check station.","estimatedTime":"3 weeks"}'

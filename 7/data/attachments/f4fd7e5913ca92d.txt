@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIyVDEzOjA5OjU5LjQ2MTk0NiIsInVzZXJfaWQiOiI4MGNhYjZhZS0zYzFiLTQ4YmEtYTQxNS0yYWMxOWYwOWM0ZWYifQ.4G52QlLzMfzgXriNHJMdukVfnz0flEckAYhPUAoI2Kc' \
+  -H 'content-length: 392' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Hundred Mrs rise meet reason subject.","maxScore":61,"minScore":7,"description":"Local risk behavior key. Management soldier toward statement computer pressure economy ten.\nSee away local yard. Choose population relationship outside two top.","estimatedTime":"5 weeks","previewFileId":"146b174c-4ea2-4aef-9d25-95582b4204c4","createdByUserId":"80cab6ae-3c1b-48ba-a415-2ac19f09c4ef"}'
