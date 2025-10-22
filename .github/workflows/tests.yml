@@ -62,7 +62,7 @@ jobs:
           ref: gh-pages
           path: gh-pages
 
-      - name: Download allure-results as artifact
+      - name: Download allure-results
         uses: actions/download-artifact@v5
         with:
           path: allure-results
