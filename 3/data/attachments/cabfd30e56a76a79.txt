@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIyVDExOjQ3OjQ4LjM5OTkyNCIsInVzZXJfaWQiOiJhNjBhYTg0YS1jMGZlLTRjYWItOGMwOC1hNTVlYzdkNzY2YzAifQ.6AKmvIgiUugQMw3y6LBIUZmrCWjOLVjfj1GT-Npm0a0' \
+  -H 'content-length: 332' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Information some market three do forget few.","courseId":"fb0cc003-e458-4cda-9abe-9c100f1f2d9a","maxScore":67,"minScore":19,"orderIndex":38,"description":"Investment young maintain reason minute politics suggest. The teach could network worry decide up. Figure response race method win service.","estimatedTime":"6 weeks"}'
