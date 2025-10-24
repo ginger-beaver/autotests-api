@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI0VDE1OjU1OjQ4LjIxODk0NCIsInVzZXJfaWQiOiJkOGFlYTA1YS00ZTBmLTQ0NGUtYWJmYy03ZmEyY2RlOTA3NWEifQ.5uK7su5MfYyjPM4fizRitHtCnFXQWTHyz25qYtT76O4' \
+  -H 'content-length: 400' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Exist store condition.","maxScore":78,"minScore":14,"description":"But religious mind may thing organization. Tough throw including between trial goal.\nPaper magazine employee perform really.\nCard southern stand whether. Blue member room work easy.","estimatedTime":"1 weeks","previewFileId":"baa905d6-66c0-4598-b8d7-98c1bb9a161d","createdByUserId":"d8aea05a-4e0f-444e-abfc-7fa2cde9075a"}'

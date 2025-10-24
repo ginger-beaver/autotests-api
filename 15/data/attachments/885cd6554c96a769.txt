@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/34c978fd-e0bf-4a15-b65e-704f3cfc772e' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI0VDE1OjU1OjQ2LjQwODU4OSIsInVzZXJfaWQiOiJjYmM1ZTc4Zi0xNzlhLTRjZmMtYjY2ZS04NWQ5NTlkYmU5NjEifQ.YBui_KQMbgQ-bhyhR_jB7l8CCmQ8DPRJdem4w387jto' \
+  -H 'content-length: 298' \
+  -H 'content-type: application/json' \
+  -d '{"title":"None learn wear help four baby.","maxScore":77,"minScore":14,"description":"Similar responsibility movement end training year talk. Reveal inside beyond day letter thing society.\nFor experience six option test. Success approach figure door industry show game.","estimatedTime":"3 weeks"}'

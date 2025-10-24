@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI0VDE1OjU1OjQ2Ljk5NTA1MSIsInVzZXJfaWQiOiJiYTY4ZDI4ZC04NDA2LTQ4NTctYmZmMS0zOTUzMDliYWM3NjkifQ.7vAkAKY7ZJatESaBkBLtWYyGSac1ls2dzB2MXWnwrJ0' \
+  -H 'content-length: 379' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Decide total author soon concern board.","maxScore":99,"minScore":12,"description":"Huge behind ahead whose. Decision operation such foreign sure have nice. Hair there education generation.\nHope true trial offer quality account.","estimatedTime":"3 weeks","previewFileId":"001cee27-1203-48db-826a-7c92ff5d9a17","createdByUserId":"ba68d28d-8406-4857-bff1-395309bac769"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI0VDE1OjU1OjUwLjA1MTcyMiIsInVzZXJfaWQiOiJiMjU4MWM4Yi1iNGRmLTRiYzEtYTJjNC1jNWUxZWNhNmY4YjQifQ.FYefuGbAPhU766mcHleuFFbitUwIy3wT04SGP6tneRs' \
+  -H 'content-length: 368' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Picture two high.","maxScore":77,"minScore":3,"description":"Pretty system tonight table blood our much.\nRed hope story many sometimes be pressure. Southern anything increase theory.\nCity crime skill indicate lawyer.","estimatedTime":"6 weeks","previewFileId":"22c0049b-b656-4a28-bc48-18de6afad58d","createdByUserId":"b2581c8b-b4df-4bc1-a2c4-c5e1eca6f8b4"}'

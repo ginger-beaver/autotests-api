@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI0VDE1OjU1OjQ2LjQwODU4OSIsInVzZXJfaWQiOiJjYmM1ZTc4Zi0xNzlhLTRjZmMtYjY2ZS04NWQ5NTlkYmU5NjEifQ.YBui_KQMbgQ-bhyhR_jB7l8CCmQ8DPRJdem4w387jto' \
+  -H 'content-length: 364' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Politics either protect go important.","maxScore":99,"minScore":8,"description":"Life result moment other. Might cup draw year tend education.\nLook girl ground issue now financial. Protect each food movement many.","estimatedTime":"9 weeks","previewFileId":"b6e6c01c-4145-4881-bc6f-bdea7cae8587","createdByUserId":"cbc5e78f-179a-4cfc-b66e-85d959dbe961"}'

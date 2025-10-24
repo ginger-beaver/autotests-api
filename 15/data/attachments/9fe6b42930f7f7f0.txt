@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI0VDE1OjU1OjQ3LjYzMTcwMyIsInVzZXJfaWQiOiI1ZmY4YTdjYS04NTk1LTRiZTktYTU1ZS00NGU4NzBmM2Q1MTgifQ.zLDQ3aezLQWmxGMCzNfW18wdksMyMJxW6CvqHPOWJdY' \
+  -H 'content-length: 404' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Sure professional us contain shake.","maxScore":72,"minScore":4,"description":"Man out always Mr long store yourself fear. Night agent many mouth.\nEverybody project able computer follow her head public. Off executive beautiful serve his I case official.","estimatedTime":"4 weeks","previewFileId":"e1d98554-ab0f-4c3c-9708-48e4eff6297e","createdByUserId":"5ff8a7ca-8595-4be9-a55e-44e870f3d518"}'
