@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI0VDE0OjAyOjQ4LjIxMDIwMyIsInVzZXJfaWQiOiJjMDNjNjQ1NC1mZWIzLTQ1MTgtODJiMy0zYTdjY2I0NjcwMzkifQ._XdDfpnVtSNdOn7tjlenNEaSxspUC_IFAQyF5Sknxnk' \
+  -H 'content-length: 408' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Lay notice sit mean senior owner finish.","maxScore":78,"minScore":6,"description":"Capital high vote low central food. Yet white space generation collection whom cup.\nHer fill hit cause stop. Form fine no do sometimes. Tax call rich require concern player.","estimatedTime":"9 weeks","previewFileId":"deefc588-612f-4577-8052-dc2b49f1acaa","createdByUserId":"c03c6454-feb3-4518-82b3-3a7ccb467039"}'

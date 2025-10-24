@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI0VDE0OjAyOjUwLjE3MDY2NyIsInVzZXJfaWQiOiIyYmUwZmIyZC00OGQ3LTRkNDgtODU4NC03OGZkYmEwMjE4MTYifQ._5hhxCpV4GhwyMCLttOWIMzxIffw93ZUVeUkeJWWyZc' \
+  -H 'content-length: 264' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Rise window top policy.","maxScore":91,"minScore":16,"description":"Child effort million past return despite long.","estimatedTime":"7 weeks","previewFileId":"eecc773c-fc11-476b-a7f6-309dcb3ec21c","createdByUserId":"2be0fb2d-48d7-4d48-8584-78fdba021816"}'

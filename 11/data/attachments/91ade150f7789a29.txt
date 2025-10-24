@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI0VDE0OjAyOjUxLjI5NDE4MSIsInVzZXJfaWQiOiI3ZjE3NTBkZS04Y2Q4LTRmN2MtODc4OC03MDczMDIyMzgyNTgifQ.Ptb4C7GzuuV9kogbeXBu5jqvTKkeM-JO7dQ4imXmYok' \
+  -H 'content-length: 417' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Town area would loss movement present lay future.","maxScore":95,"minScore":1,"description":"Executive deep senior include property drug seek. Ok doctor trial spend attention let. We agency great article such.\nFigure free pull together. Nearly common treatment side.","estimatedTime":"9 weeks","previewFileId":"520f0d6a-c4b9-4279-ab6a-1764def1f8de","createdByUserId":"7f1750de-8cd8-4f7c-8788-707302238258"}'

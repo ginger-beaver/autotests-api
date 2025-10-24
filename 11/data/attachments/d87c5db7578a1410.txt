@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI0VDE0OjAyOjUxLjkxMjMwMyIsInVzZXJfaWQiOiJlMjVkZTZhNy1mNWRhLTRiNjEtYmY1NS1iOTBhYmRhYWFjNjUifQ.VfNkzc-c3qPGuTDGBHX6COF2CmMz1eSEfMDxebIFDIA' \
+  -H 'content-length: 394' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Wish interest series piece paper member dark party.","maxScore":97,"minScore":5,"description":"Beyond radio similar factor simple throw affect. Federal happy region stop join paper. Poor always usually mention responsibility sign summer write.","estimatedTime":"10 weeks","previewFileId":"7c7fd805-f074-43e2-87e2-351db22917a0","createdByUserId":"e25de6a7-f5da-4b61-bf55-b90abdaaac65"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/8724d4e4-0551-4029-b374-b16cc3b9b6c4' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI0VDE0OjAyOjQ5LjA1MzMwMCIsInVzZXJfaWQiOiI1NzFmM2E3YS05ZmMwLTQwZjYtYTY4NC0wYjc4ZWQ3Mjc4ZTYifQ.D-p2nU_GxQOsly4JrpvowBmERBodOf-YJlOBeCGhs0M' \
+  -H 'content-length: 242' \
+  -H 'content-type: application/json' \
+  -d '{"title":"International knowledge deal speech dinner recent.","maxScore":77,"minScore":8,"description":"Knowledge little rise. Leader care able network both hot. Newspaper building trial official look situation it.","estimatedTime":"4 weeks"}'
