@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI0VDEzOjQ2OjIzLjY5NjU4OCIsInVzZXJfaWQiOiJmNTVmYWY2Zi0zZDk5LTQzZWItODQ4Zi0yZDM1NzVhNTRkMzQifQ.A1q8lhSaUyObi6mR25AKD5m8S1h4pIOlGqMzRz0q4Wo' \
+  -H 'content-length: 374' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Require inside south view computer.","maxScore":97,"minScore":23,"description":"Ask buy keep indicate tough. Test reality explain road respond.\nFew west story. Federal market training eat ago. Around west still boy how our.","estimatedTime":"7 weeks","previewFileId":"29070969-4e70-4f97-81a7-40933a19e242","createdByUserId":"f55faf6f-3d99-43eb-848f-2d3575a54d34"}'
