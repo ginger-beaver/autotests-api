@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI0VDEzOjU2OjQzLjI4NDIxNiIsInVzZXJfaWQiOiI5Y2NkOTYyNi02Mjg0LTQxNGYtYTc0NS1iZDM1YzU0ZDI3NmMifQ.jzs7_8uPWWCWlLWu8uWFZNfFXX9ddTht-apQA4cfIC4' \
+  -H 'content-length: 334' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Popular rock direction owner way page seem spring.","maxScore":67,"minScore":1,"description":"Lose across phone player. Party particular reveal. Pass former again thousand church year.","estimatedTime":"8 weeks","previewFileId":"9a6b3b1c-ea7b-4a7e-adff-efaea1abbd2b","createdByUserId":"9ccd9626-6284-414f-a745-bd35c54d276c"}'

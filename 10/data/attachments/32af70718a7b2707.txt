@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI0VDEzOjU2OjQ3LjgyMTYwNCIsInVzZXJfaWQiOiIwMGFmOTc2MC0wZWM0LTRhMmEtODA0OS1lOWNjZDliYWQ0ZTQifQ.aldvwFnbIUWc2tef23R0Hm-WpU4SXH7-5CjxKz5BAkg' \
+  -H 'content-length: 374' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Car free smile whose learn son.","maxScore":66,"minScore":17,"description":"Company seem gas together girl. Mean age produce play common. Carry support name argue officer.\nSpend might audience oil. Sit cold dinner audience.","estimatedTime":"4 weeks","previewFileId":"f56a13a7-d710-45b1-be40-72b5bcfc6643","createdByUserId":"00af9760-0ec4-4a2a-8049-e9ccd9bad4e4"}'

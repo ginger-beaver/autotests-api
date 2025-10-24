@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI0VDEzOjU2OjQ0LjQyMzgzMyIsInVzZXJfaWQiOiJmMzM0NjAzYy0xZmJkLTRjZjctOTYxYi1mODg4ZTcxMzJhYTMifQ.xZcPgRLHXPDgJOMJt2up-n1tZdLjP4URs73XgJXtoU0' \
+  -H 'content-length: 427' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Live bit democratic listen card do.","maxScore":87,"minScore":25,"description":"White professor deep meet share painting source. Most note ahead instead.\nApply federal star Congress. Operation suddenly dream customer standard pass. Doctor oil fine computer around dog project.","estimatedTime":"9 weeks","previewFileId":"47e67a7d-593a-44af-b952-afa92f08ac23","createdByUserId":"f334603c-1fbd-4cf7-961b-f888e7132aa3"}'

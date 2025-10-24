@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI0VDEzOjU2OjQ2LjU3MzgzNSIsInVzZXJfaWQiOiI4ZTg1YmFiYi04NGUwLTRmMmEtOTgwNi1kZDY1ODcyMmQ5MjgifQ.hE0HUS03xYA-5MRw13Ro2n66FHlndwImexCjwmZQfeM' \
+  -H 'content-length: 367' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Same financial successful continue.","maxScore":51,"minScore":22,"description":"Especially reach coach general short security seat choose. Agent feel president. Evening theory remain. Top property you dog wear street.","estimatedTime":"2 weeks","previewFileId":"191b5f4a-a817-40f3-8fb8-e57aece382bb","createdByUserId":"8e85babb-84e0-4f2a-9806-dd658722d928"}'
