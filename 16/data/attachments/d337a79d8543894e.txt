@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI0VDIxOjE0OjIxLjc0MTYwMSIsInVzZXJfaWQiOiJkZDE3Mjg4Ni04OTJlLTRlOGUtYTQ1MS04MzRlN2FkM2E3N2MifQ.jaMsWodBqSjQl6KIFn19-UzeR-SEVEQTAbLvuxo2PkE' \
+  -H 'content-length: 391' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Find indeed game compare media half.","maxScore":59,"minScore":9,"description":"Push choice area attack stand. President strategy call cell.\nDiscussion market difficult administration always. More buy action participant policy idea tonight.","estimatedTime":"1 weeks","previewFileId":"7297c81c-528e-40af-8a3d-ee4cdd2b565c","createdByUserId":"dd172886-892e-4e8e-a451-834e7ad3a77c"}'

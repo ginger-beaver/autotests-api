@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI0VDIxOjE0OjI1LjMzODU5MSIsInVzZXJfaWQiOiI3ZDFlZTg1Ni1jYWNmLTRiZDUtOTg3OS01YjVmMjhmMjExYzgifQ.danwteqp58ZAeRPVLvciA2og3xKhl-AaivvUWUKkWlg' \
+  -H 'content-length: 425' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Available need next guy want range realize.","maxScore":98,"minScore":15,"description":"Certain idea beat strategy quickly outside. Relate forget bad building how. Six camera rule already piece.\nExecutive situation capital drop such successful old. Republican strategy bank.","estimatedTime":"5 weeks","previewFileId":"ea887ab7-e492-4b9f-8200-f02270d047f2","createdByUserId":"7d1ee856-cacf-4bd5-9879-5b5f28f211c8"}'

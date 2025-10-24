@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI0VDIxOjE0OjIzLjUyNzg0NiIsInVzZXJfaWQiOiI5ZTBhODkyOC04ZmU1LTRkZDAtYmYwZi03MzI1NWM5YWEwZTcifQ.C0mV8kW3866cCaBDSxSgwFmp083Xl98mb8ju1fFncn0' \
+  -H 'content-length: 422' \
+  -H 'content-type: application/json' \
+  -d '{"title":"One consider law class court message do.","maxScore":76,"minScore":17,"description":"Democratic onto than once. Health collection early boy impact need film. Discuss front own economy. Tree movie surface west.\nCareer center politics south per matter. History quite agent.","estimatedTime":"2 weeks","previewFileId":"7c055972-0681-4a08-933b-a293440917ab","createdByUserId":"9e0a8928-8fe5-4dd0-bf0f-73255c9aa0e7"}'

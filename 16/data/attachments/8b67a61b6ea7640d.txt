@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI0VDIxOjE0OjI0LjY5NzY4MCIsInVzZXJfaWQiOiI5MmIzNjIxOC03NDkyLTRhZmItYjQ1ZS1jYTAzYmQyNmFhZWMifQ.47OQM_-B-4vrH4hAugQYWqZBSTVYWCafJMHjoL-E2NA' \
+  -H 'content-length: 361' \
+  -H 'content-type: application/json' \
+  -d '{"title":"A a hour its source rule information share.","courseId":"572ca328-d74d-48e7-b620-e8afde758fd1","maxScore":72,"minScore":19,"orderIndex":58,"description":"Camera several television these threat before. Rise night bad black affect tell. Control effort at per firm just.\nBig down perform late.\nFace agree debate way tonight.","estimatedTime":"4 weeks"}'
