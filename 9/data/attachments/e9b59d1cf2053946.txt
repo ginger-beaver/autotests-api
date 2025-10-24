@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/24bace6a-9e68-4f60-b166-26076abe13b1' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI0VDEzOjUyOjEzLjU1ODgyMyIsInVzZXJfaWQiOiI5NWUwM2I4Yi00NzViLTQ2NjgtOTYwYy1kNDI0ZWVkOTI3NDEifQ.Bm2PEBxJagyePzQs7rkIqiDnTzxWEJ3_kmnVt2bcrwU' \
+  -H 'content-length: 296' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Idea give quite station.","maxScore":75,"minScore":25,"description":"Week also again ready exactly box cut. Well serve fact clear nature admit.\nDesign it rather beat. Change line point buy PM ready. Other class choose ask picture. For sea week for anything.","estimatedTime":"4 weeks"}'

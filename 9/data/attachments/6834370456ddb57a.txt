@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI0VDEzOjUyOjE3LjE4NjUyNSIsInVzZXJfaWQiOiJiZGM4Mjg3MS05YzIyLTRkM2MtYmZlMy04MTcwZjdmYmIyNzMifQ.6GPfO6-RHnhI_qQ4JiY_ng_nVFS_OfqurCs0ce_xONE' \
+  -H 'content-length: 315' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Republican often do town.","maxScore":57,"minScore":7,"description":"Eight base without industry. As someone do stay over strong side.\nResearch economic with staff.","estimatedTime":"7 weeks","previewFileId":"188735bd-a358-4b1b-866f-c8e56128062e","createdByUserId":"bdc82871-9c22-4d3c-bfe3-8170f7fbb273"}'

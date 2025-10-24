@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI0VDEzOjUyOjE2LjU5NTY1NSIsInVzZXJfaWQiOiIyNDk5OTZkYS1iMjY4LTRhODgtYjNlZS05MDY3YjU1NDFjMDUifQ.wVTLPMaJOwEG6uJHyXENHs8yu-80JstmOLPRdbBxOEQ' \
+  -H 'content-length: 414' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Six read agency collection important eye.","maxScore":62,"minScore":24,"description":"Former loss lose draw. Station race security almost television fact. Need actually party indeed give.\nSo ball she western discussion general owner site. Yourself inside economy.","estimatedTime":"9 weeks","previewFileId":"e542e87c-05cf-487f-bfae-f650dc059a6e","createdByUserId":"249996da-b268-4a88-b3ee-9067b5541c05"}'
