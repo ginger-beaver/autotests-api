@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI0VDE0OjMyOjM1LjIzMDMyMCIsInVzZXJfaWQiOiI3MzQzN2Q3Mi0wZDNjLTQ5YzQtYTY1NS0xYWE4ODU1ZGEwZjEifQ.bZ1cz4_M_lBJB7mN2HSACg-B3teZWmu9oMIbJAAxRnM' \
+  -H 'content-length: 440' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Water reach week keep continue whom president.","maxScore":93,"minScore":18,"description":"Near experience admit establish hard writer. Take major usually scene cause.\nContinue far true game consider. Including history quality full each sure. News hold work population threat player field.","estimatedTime":"6 weeks","previewFileId":"b0a8f035-b207-453e-ac44-ddef972176ab","createdByUserId":"73437d72-0d3c-49c4-a655-1aa8855da0f1"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI0VDE0OjMyOjMzLjE2Nzc4OSIsInVzZXJfaWQiOiJmOGYxY2YzZS05ZjMyLTRmNjgtYjM4Ny02YTA1N2FlNzNmMmIifQ.yBPIFSOkXNjoRzEP9YU9Pz1S6whFo1KMBqYvMeHR3M8' \
+  -H 'content-length: 342' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Moment point family I many.","maxScore":53,"minScore":5,"description":"Republican operation fall.\nContinue international national can growth. Walk college step. Forget product whose question.","estimatedTime":"7 weeks","previewFileId":"e87eb442-af57-44cf-a4dd-90572b23be54","createdByUserId":"f8f1cf3e-9f32-4f68-b387-6a057ae73f2b"}'

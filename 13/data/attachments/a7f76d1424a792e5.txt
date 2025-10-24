@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/7feb7e17-207a-400b-861a-6505fde42cd0' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI0VDE0OjMyOjMyLjkwNTE5MiIsInVzZXJfaWQiOiI1MTdiZDk5Ni1mNTg4LTRiODgtYTJlMi1lZDcwMjFiZmRjZGMifQ.t_Pp_shnpJcf55KsiSFeaLrymuSJh8kSg1s0RrHuHEg' \
+  -H 'content-length: 292' \
+  -H 'content-type: application/json' \
+  -d '{"title":"That then air relate next.","maxScore":50,"minScore":2,"description":"Market green page standard guy thank talk effort. Different history special character long include ready.\nBoy unit prepare good even. House how often environment. Might control fund.","estimatedTime":"10 weeks"}'
