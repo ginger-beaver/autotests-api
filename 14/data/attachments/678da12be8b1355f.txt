@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI0VDE0OjM2OjA1LjkzMDkyOSIsInVzZXJfaWQiOiIxY2Y4MzRiNC1mZTA3LTQwMjQtOGM2MS1mZmUzMjQ1M2E3MjMifQ.aRYc3-ITdY5AI76qcmEfuj7xZvJgqYVhdYZYnvvrvwo' \
+  -H 'content-length: 367' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Side audience consider young shake anyone.","courseId":"7fc6edf1-c140-4379-a241-462a1e695fc7","maxScore":94,"minScore":9,"orderIndex":58,"description":"Box notice TV bring. Drive during interview huge her according resource.\nArm entire general line raise decision industry blue. Tell civil outside. Usually run civil of imagine.","estimatedTime":"5 weeks"}'

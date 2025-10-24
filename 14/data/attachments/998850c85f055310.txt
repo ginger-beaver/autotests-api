@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI0VDE0OjM2OjA0LjEyMDkwMSIsInVzZXJfaWQiOiIyYjQ4NjcxNi1kM2FlLTQ5M2QtOGNhNy1lZTg1ZjYwMWU1NGYifQ.Rep4u2Y-bVnnukchdcFbZnWYYQC8yJ1BCXFaeonH6Zw' \
+  -H 'content-length: 349' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Various catch author choose minute television.","courseId":"574ff9f3-5993-4ecc-9daf-b7a43f89b10d","maxScore":73,"minScore":17,"orderIndex":82,"description":"Movie leader tell kind vote when find. Among conference much environmental week agency remain sport. Time opportunity ahead son already station scientist.","estimatedTime":"5 weeks"}'

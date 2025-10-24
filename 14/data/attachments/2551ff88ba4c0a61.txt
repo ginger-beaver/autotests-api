@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/56627e05-2f58-4f1b-807c-e3f1eb3a567d' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI0VDE0OjM2OjAyLjMwOTA1MyIsInVzZXJfaWQiOiI3ZTgxNGQ0OS01MzQ5LTRhN2QtYTEwNC1hNjBjY2E5ZTk5NzIifQ.g7SfJF4tEi8pyb-_LbJdke9u8Aul4ZOFbyPuPHLH4fs' \
+  -H 'content-length: 272' \
+  -H 'content-type: application/json' \
+  -d '{"title":"See change share wide relationship.","maxScore":59,"minScore":25,"description":"But student second certainly. Upon simple everything include close. Minute like worker his stuff audience. Pattern minute anyone standard idea management.","estimatedTime":"3 weeks"}'

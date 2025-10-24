@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI0VDE0OjM2OjA1LjkzMDkyOSIsInVzZXJfaWQiOiIxY2Y4MzRiNC1mZTA3LTQwMjQtOGM2MS1mZmUzMjQ1M2E3MjMifQ.aRYc3-ITdY5AI76qcmEfuj7xZvJgqYVhdYZYnvvrvwo' \
+  -H 'content-length: 411' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Various involve television.","maxScore":57,"minScore":14,"description":"Test decade do.\nArea story candidate their tend alone action. Various strong hard form clear choice. Imagine floor become civil.\nTake teacher economy list entire. Pretty plan line action.","estimatedTime":"8 weeks","previewFileId":"00c31669-0748-49ba-80a0-54f0fa5f91dd","createdByUserId":"1cf834b4-fe07-4024-8c61-ffe32453a723"}'

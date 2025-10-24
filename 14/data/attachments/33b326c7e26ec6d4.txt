@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI0VDE0OjM2OjAyLjMwOTA1MyIsInVzZXJfaWQiOiI3ZTgxNGQ0OS01MzQ5LTRhN2QtYTEwNC1hNjBjY2E5ZTk5NzIifQ.g7SfJF4tEi8pyb-_LbJdke9u8Aul4ZOFbyPuPHLH4fs' \
+  -H 'content-length: 291' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Physical century either soon environmental.","maxScore":81,"minScore":30,"description":"Draw seven positive call. Center run life image hold.","estimatedTime":"4 weeks","previewFileId":"fcedcdcc-1484-4ad0-ac58-444c232ca0fd","createdByUserId":"7e814d49-5349-4a7d-a104-a60cca9e9972"}'

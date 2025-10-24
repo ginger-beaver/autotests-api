@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI0VDE0OjM2OjAyLjk1MDE4NiIsInVzZXJfaWQiOiIzZDFmOWI0MS0wM2Y1LTQ5YWYtOTNlYi0yZjQ2OGY3MTJkYTUifQ.9KptE1_NbiTbiWo_LdG51srPMqyQ-CX1MVwgn4_47-w' \
+  -H 'content-length: 411' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Pattern community music.","maxScore":62,"minScore":17,"description":"Which professor resource east suddenly environmental owner. Past scientist loss can voice.\nMe read all keep large quite father. Gas character those.\nDecide strong wrong attorney wish attack.","estimatedTime":"4 weeks","previewFileId":"1a182956-af92-4f44-b354-d36fb15ce0f8","createdByUserId":"3d1f9b41-03f5-49af-93eb-2f468f712da5"}'
