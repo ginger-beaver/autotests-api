@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/c48e9319-a8bf-492a-8e4a-9a77a48b7c1e' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI0VDE0OjA3OjA1LjA4NjYzNCIsInVzZXJfaWQiOiJkNGJmMjAzOC0yYzUyLTQ4ZjEtODk4NC01NzUxOTBjOWViZmMifQ.ryJIP_4oaMvhwSVwT14E8VAbklh1WHNESsoneiuhWdU' \
+  -H 'content-length: 307' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Use collection environmental across.","maxScore":76,"minScore":21,"description":"Own discuss relationship bill plan. Six research explain party as. Paper pay last our administration represent discover.\nPut card increase step while serve able him. Ground central right.","estimatedTime":"7 weeks"}'

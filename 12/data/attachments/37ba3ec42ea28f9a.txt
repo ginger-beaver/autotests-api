@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI0VDE0OjA3OjA3Ljc1MTc1MiIsInVzZXJfaWQiOiIzNmE5NjBlNS04YzczLTQ3M2EtYWZhZC1lNmFjOGYxZGM3MGUifQ.V391jOb2ZN310MnvOknpOrvnCNZeaRjCVbmmKxXmr-Y' \
+  -H 'content-length: 363' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Day mean face join.","maxScore":71,"minScore":24,"description":"Order hotel try here.\nCharacter where page continue popular out.\nLot activity provide star none oil most. Lose use professor sure realize per both.","estimatedTime":"2 weeks","previewFileId":"bfbef505-cd33-45d2-96ee-97351fac3aff","createdByUserId":"36a960e5-8c73-473a-afad-e6ac8f1dc70e"}'

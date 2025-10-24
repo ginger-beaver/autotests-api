@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI0VDE0OjA3OjA3LjQ3ODIyNiIsInVzZXJfaWQiOiI1OGRkN2UxMS1mMjJjLTQ0YTctYTEzOC05ODE1NjAyMTYwNzEifQ.p-0cGP4I2zhoiUv2rp1OuUTgMZStAOouVtoO5wyQPCk' \
+  -H 'content-length: 418' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Stage night whatever present evidence letter miss.","maxScore":51,"minScore":22,"description":"Thought past nation national buy. Small successful have area partner.\nMiss soldier item authority heart have old. Between draw forget vote wrong call. Box party on instead.","estimatedTime":"4 weeks","previewFileId":"2f635fe3-3fa2-4717-8d5e-14c4d4f92079","createdByUserId":"58dd7e11-f22c-44a7-a138-981560216071"}'
