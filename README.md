@@ -1,9 +1,8 @@
-# API Course Automation Tests
+# API Automation Tests
 
-Этот проект создан в рамках курса **«Автоматизация тестирования API с Python»** и реализует автоматические тесты
-для [API Course Test Server](https://github.com/Nikita-Filonov/qa-automation-engineer-api-course).
-
-Тесты написаны с использованием **Python**, **Pytest**, **Allure**, **HTTPX**, **Pydantic** и **Faker**.
+Реализация набора тестов для проверки функциональности API сервера.
+Тесты написаны с использованием **Python**, **Pytest**, **Allure**, **Pydantic**, **Faker** и **HTTPX**. 
+Исходный код приложения доступен на [GitHub](https://github.com/Nikita-Filonov/qa-automation-engineer-api-course).
 
 ## Описание проекта
 
@@ -17,7 +16,7 @@
 - **Allure** для визуализации отчетов
 - Интеграция с CI/CD-платформой **GitHub Actions** — на каждом **push** или **pull request** автоматически запускаются
   тесты, формируется отчет и
-  публикуется на **GitHub Pages** ([ссылка](https://ginger-beaver.github.io/autotests-api/))
+  публикуется на [**GitHub Pages**](https://ginger-beaver.github.io/autotests-api/)
 
 ## Установка и запуск
 
@@ -48,15 +47,15 @@ venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-## Запуск тестов с генерацией Allure-отчета
+## Запуск тестов с генерацией Allure отчета
 
-Эта команда выполнит все тесты и покажет результаты в терминале:
+Эта команда выполнит все тесты и покажет результат в терминале:
 
 ```bash
 pytest -m "regression" --alluredir=./allure-results
 ```
 
-## Просмотреть Allure отчет
+## Просмотр Allure отчета
 
 Эта команда откроет отчет в вашем браузере:
 
