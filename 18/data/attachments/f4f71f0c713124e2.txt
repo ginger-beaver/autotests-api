@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTE1VDEyOjMyOjUwLjA0MTM5MSIsInVzZXJfaWQiOiI2YTY5MDVmOS00OWJjLTQxYTAtODViMS0wMzExYWZkMmFiMWEifQ.plKopzLJZs96hPLKbM-dbScXi_Sg_8HmooBRTpqBGP8' \
+  -H 'content-length: 343' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Song and lose here.","maxScore":96,"minScore":11,"description":"Best pretty late traditional third plant region. Tv wife off parent without discuss finally. Type pretty mouth perhaps them take.","estimatedTime":"2 weeks","previewFileId":"2388a73a-2485-441a-ad6e-b83e02a44260","createdByUserId":"6a6905f9-49bc-41a0-85b1-0311afd2ab1a"}'

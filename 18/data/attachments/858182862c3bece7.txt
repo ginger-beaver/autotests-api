@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTE1VDEyOjMyOjQ2Ljk5NTMzMiIsInVzZXJfaWQiOiIxMmZhNDY1OC1kYzFjLTRlNzgtYjAyZS02YTAwNzY3OWRiZjUifQ.n61xhHZGkZaSNJJ35PPBmVAfpdC18YVdmsm1RYOFG1Y' \
+  -H 'content-length: 412' \
+  -H 'content-type: application/json' \
+  -d '{"title":"General close throughout respond response option determine.","maxScore":89,"minScore":1,"description":"Return picture create toward. Tonight doctor morning could today.\nHusband will ask success. Way stop opportunity result per blue oil.\nProduction imagine end.","estimatedTime":"6 weeks","previewFileId":"0df125da-9f9f-4f5c-b730-a2a35e901f08","createdByUserId":"12fa4658-dc1c-4e78-b02e-6a007679dbf5"}'

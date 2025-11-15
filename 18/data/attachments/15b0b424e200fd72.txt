@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTE1VDEyOjMyOjUwLjYyNzgyMSIsInVzZXJfaWQiOiI1MDdmYjJlOS04MWRmLTQ2NWItYTRjMy1lYTM3ZjQxMDNlNmMifQ.jxI4sMJbfJbQK4N5wAEHdEmnnPwpdK2-h2yj_SbuMV4' \
+  -H 'content-length: 413' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Lay artist whose interesting public toward attention try.","maxScore":88,"minScore":14,"description":"First station thing star. Fine establish begin big marriage home drive. Onto look evening grow.\nAlmost ability cup week stop. North hotel both wife fine spring.","estimatedTime":"6 weeks","previewFileId":"52abf809-59ce-47ac-899f-0e3c0b2097b7","createdByUserId":"507fb2e9-81df-465b-a4c3-ea37f4103e6c"}'

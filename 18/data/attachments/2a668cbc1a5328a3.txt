@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/c18adacb-6c12-4ff7-92cf-149bc6c18ff8' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTE1VDEyOjMyOjQ2Ljk5NTMzMiIsInVzZXJfaWQiOiIxMmZhNDY1OC1kYzFjLTRlNzgtYjAyZS02YTAwNzY3OWRiZjUifQ.n61xhHZGkZaSNJJ35PPBmVAfpdC18YVdmsm1RYOFG1Y' \
+  -H 'content-length: 269' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Especially thing exactly save quite worry prove.","maxScore":89,"minScore":13,"description":"Phone claim discuss power house the. Board majority ago central probably hold southern. Too popular develop hear interview thus night far.","estimatedTime":"7 weeks"}'

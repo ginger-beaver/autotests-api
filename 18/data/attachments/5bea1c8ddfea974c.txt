@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTE1VDEyOjMyOjQ2LjM3MjAxNiIsInVzZXJfaWQiOiI0MjI1ODRiYS0xMmE1LTQxZDktYmQ3ZS00ZWQ4ZTk0OWM3OGIifQ.KUl5go0HR-RZot9RmBDO2tdEVzq2zrs1GbFzhMZtUB0' \
+  -H 'content-length: 362' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Suffer prevent economy response now future establish young.","maxScore":76,"minScore":19,"description":"Whether stock glass always. Test wish order task evidence knowledge. Both several cold forget bill figure I.","estimatedTime":"1 weeks","previewFileId":"77adc5c8-926a-4469-b64a-df47c8021f8b","createdByUserId":"422584ba-12a5-41d9-bd7e-4ed8e949c78b"}'

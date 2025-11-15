@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTE1VDEyOjMyOjQ4LjIzMDI5MSIsInVzZXJfaWQiOiI4ZjBlZjY1Zi1hN2FiLTRkM2YtOTc4YS04MzI1NGU1NzE5YzUifQ.ZXp4TYxuJBrqCuIeYroIqtTW8skkthqGbqy5UrJ6wuI' \
+  -H 'content-length: 352' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Research seat sometimes above.","maxScore":54,"minScore":25,"description":"Yet ability away his. Past role enough check necessary similar apply.\nFear brother their wall. Community loss recognize value.","estimatedTime":"3 weeks","previewFileId":"13741407-1333-4494-9272-9f18d12392f2","createdByUserId":"8f0ef65f-a7ab-4d3f-978a-83254e5719c5"}'

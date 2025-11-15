@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/c0cea203-5e32-4520-a99c-d2a980a0b8a5' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTE1VDEyOjMyOjQ4LjgxNjUwOSIsInVzZXJfaWQiOiI3MzRmNjE2ZC05Y2M2LTQ4MzctOTBjNS1kNmY1YmViNzgwMDMifQ.AcSnBjRh7MVuobDIeKXIPQYmi1DRUzuNu2UNRRkY1aQ' \
+  -H 'content-length: 292' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Look score decide impact.","maxScore":87,"minScore":29,"orderIndex":91,"description":"Development look site wife window. End recognize young recently. Near record theory community onto.\nAs face both moment together. Whole media talk. Treat we yeah girl.","estimatedTime":"3 weeks"}'

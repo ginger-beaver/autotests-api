@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTE1VDEyOjMyOjQ5LjM5ODkyOSIsInVzZXJfaWQiOiJiM2MwMTQ0Yy01MmFmLTQ5MjEtODE0NC1mM2M5OTExMmNiMjAifQ.8iWd0h3H9I6Y-MmqvRr5bfymS7i-twbOvCSrkifiQU4' \
+  -H 'content-length: 390' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Toward year raise analysis.","maxScore":51,"minScore":14,"description":"Office much protect cell citizen house place. Amount fine vote first.\nMillion dinner station hotel safe glass store. Threat wrong give heavy. Drive senior reduce side.","estimatedTime":"8 weeks","previewFileId":"c454e60a-12aa-45dd-ac34-581ce8903e7d","createdByUserId":"b3c0144c-52af-4921-8144-f3c99112cb20"}'
